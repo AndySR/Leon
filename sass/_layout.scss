@@ -1,0 +1,17 @@
+.header {
+  font-size: 2.2rem;
+  height: 10vh;
+  box-shadow: var(--shadow-light);
+}
+.main {
+  width: 100%;
+  height: 70vh;
+}
+.bottom {
+  height: 20vh;
+  width: 100%;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem;
+}

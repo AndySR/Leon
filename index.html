@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+  <title>Leon payment</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <a class="title__text">
+        <span class="title__item title__icon"><i class="fa fa-angle-left"></i></span>
+        <span class="title__item">我的钱包</span>
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="icon">
+      <div class="icon__container">
+        <figure class="icon__visa">
+
+        </figure>
+      </div>
+      <form class="form">
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="输入卡号" id="cardnumber" required>
+          <label for="cardnumber" class="form__label">输入卡号</label>
+        </div>
+
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="输入有效期限    月/年" id="date" required>
+          <label for="date" class="form__label">输入有效期限&nbsp;&nbsp;&nbsp;&nbsp;月/年</label>
+        </div>
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="输入信用卡安全代码CSC" id="CSC" required>
+          <label for="CSC" class="form__label">输入信用卡安全代码CSC</label>
+        </div>
+
+      </form>
+
+    </div>
+  </main>
+
+  <div class="bottom">
+    <button class="btn">
+      <span class="btn__text">确认添加</span>
+    </button>
+  </div>
+</body>
+
+</html>
